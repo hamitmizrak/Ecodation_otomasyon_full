@@ -1,4 +1,4 @@
-package com.ecodation.dao;
+package com.ecodation.util;
 
 import java.sql.Connection;
 import java.util.ArrayList;
