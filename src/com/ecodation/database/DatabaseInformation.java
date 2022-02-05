@@ -1,4 +1,4 @@
-package com.ecodation.util;
+package com.ecodation.database;
 
 import lombok.Builder;
 import lombok.Data;
@@ -18,7 +18,8 @@ public class DatabaseInformation {
 		// for mysql
 		this.userName = "root";
 		this.userPassword = "root";
-		this.forNameData = "com.mysql.jdbc.Driver";
+		this.url = "jdbc:mysql://localhost:3306/ecodation_2_otomasyon?useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=Turkey";
+		this.forNameData = "com.mysql.cj.jdbc.Driver"; // mysql 8.0.16
 
 		// for postgresql
 		// this.userName = "root";
