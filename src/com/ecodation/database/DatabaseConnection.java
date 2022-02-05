@@ -46,6 +46,7 @@ public class DatabaseConnection extends DatabaseInformation {
 		}
 	}
 
+	// getter and setter
 	public Connection getConnection() {
 		return connection;
 	}
