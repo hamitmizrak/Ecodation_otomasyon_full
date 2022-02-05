@@ -18,7 +18,7 @@ public class DatabaseInformation {
 		// for mysql
 		this.userName = "root";
 		this.userPassword = "root";
-		this.url = "jdbc:mysql://localhost:3306/ecodation_2_otomasyon?useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=Turkey";
+		this.url = "jdbc:mysql://localhost:3306/ecodation_2_otomasyon?useUnicode=true&characterEncoding=UTF-8&useLegacyDatetimeCode=false&serverTimezone=Turkey";
 		this.forNameData = "com.mysql.cj.jdbc.Driver"; // mysql 8.0.16
 
 		// for postgresql
